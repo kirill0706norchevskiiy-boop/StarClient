@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "starclient",
+  "version": "${version}",
+  "name": "Star Client",
+  "description": "A client-side visual mod starter for Minecraft Java 1.21.11.",
+  "authors": ["Star Client"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.starclient.StarClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
