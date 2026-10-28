@@ -10,6 +10,6 @@ public final class StarClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        LOGGER.info("Star Client initialized. Visual modules will be added here.");
+        LOGGER.info("Star Client initialized");
     }
 }
